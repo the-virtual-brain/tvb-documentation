@@ -5,7 +5,7 @@
 
 
 Welcome to The Virtual Brain documentation!
-===========================================
+============================================
 
 .. toctree::
    :maxdepth: 2
@@ -29,18 +29,18 @@ We are grateful to:
  - and to you for reading these :-)
 
 
-    .. image:: _static/logo_python.svg
+    .. image:: styles/logo_python.svg
         :width: 30%
-    .. image:: _static/logo_jira.png
+    .. image:: styles/logo_jira.png
         :width: 20%
-    .. image:: _static/logo_pycharm.png
+    .. image:: styles/logo_pycharm.png
         :width: 35%
 
-    .. image:: _static/logo_svn.png
+    .. image:: styles/logo_svn.png
         :width: 30%
-    .. image:: _static/logo_github.png
+    .. image:: styles/logo_github.png
         :width: 25%
-    .. image:: _static/logo_hudson.png
+    .. image:: styles/logo_hudson.png
         :width: 30%
 
 
