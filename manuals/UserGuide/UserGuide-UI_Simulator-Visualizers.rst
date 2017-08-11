@@ -602,7 +602,7 @@ Connectivity Edge Bundle Visualizer
 
 Shows structural connectivity coming in and out of a brain region by highlighting paths to other regions.
 
-.. figure:: screenshots/connectivity_edge_bundle.png
+.. figure:: screenshots/visualizer_connectivity_edge_bundle.jpg
    :width: 90%
    :align: center
    
@@ -613,7 +613,7 @@ Pearson Edge Bundle Visualizer
 
 Shows functional connectivity coming in and out of a brain region by highlighting paths to other regions.
 
-.. figure:: screenshots/pearson_edge_bundle.png
+.. figure:: screenshots/visualizer_pearson_edge_bundle.jpg
    :width: 90%
    :align: center
    
