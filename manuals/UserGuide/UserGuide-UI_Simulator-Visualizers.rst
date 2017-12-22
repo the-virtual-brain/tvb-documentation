@@ -161,7 +161,7 @@ A structural mri volume may be used as a background.
    :width: 90%
    :align: center
 
-   TimeSeries Volume with selections
+   Time Series Volume with selections
 
 
 **Volumetric fragment**
@@ -186,7 +186,14 @@ Also to be found un the Brain call-out.
 
 **Time Series Line Fragments**
 
-This is the right part of the TimeSeries Volume visualizer and is composed of three main parts:
+This is the right part of the TimeSeries Volume visualizer and is composed of other sub-parts:
+
+.. figure:: screenshots/visualizer_tsv_fragment.jpg
+   :width: 70%
+   :align: center
+
+   Time Series Volume Line Fragments
+
 
 *Global Time Series Graph*
 
@@ -212,7 +219,35 @@ Every selected time series from the volume is shown on a separate line and label
 based on its coordinates from the 3D space.
 Adding lines in this section can be done by clicking in the left area on the main quadrant.
 
-*Important notice*:
+
+*Display multi dimensional time series:*
+
+In case the Time Series displayed comes from a TVB simulation, when the Neuronal Mass Model
+supports multiple modes and state-variables, then it is necessary to choose what to display,
+as this viewer can only show 2D results. To choose from `Mode` and `State Variable` dimensions,
+a selector will appear on the top-right area. When changing the selection, the coloring  for
+the left-side volume regions will change accordingly.
+
+.. figure:: screenshots/visualizer_tsv_mode_sv.jpg
+   :width: 70%
+   :align: center
+
+   Time Series Volume - select when multiple dimensions
+
+Already selected Time series lines on the right, will remain unchanged, when `Mode` and
+`State Variable` change, but if you click again on the left side volume, new lines will
+be added, for the currently active `Mode` and `State Variable`. One can inspect in the
+line title, the details for that point (including `X`, `Y`, `Z` position in the volume,
+full region name, `Mode` and `State Variable`).
+
+.. figure:: screenshots/visualizer_tsv_title.jpg
+   :width: 70%
+   :align: center
+
+   Time Series Volume - Line title
+
+*Important notice:*
+
 While these time lines share the temporal axis they do not share the vertical one.
 The signal amplitudes are dynamically scaled so as to make the signal features visible.
 Amplitudes are *not* comparable among two of these signals.
@@ -224,12 +259,6 @@ in the desired position, as seen on the picture bellow. Lines can be removed by
 dragging them to the top "trash bin area" that appear every time a line is
 selected to be dragged.
 
-
-.. figure:: screenshots/visualizer_tsv_fragment.jpg
-   :width: 70%
-   :align: center
-
-   TimeSeries Fragment
 
 
 Connectivity Measure Visualizer
@@ -528,7 +557,11 @@ As the correlation matrix is symmetric, only half is actually displayed.
 Fourier Spectrum Visualizer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Plots the power spectrum of each node time-series.
+Plots the power spectrum of all nodes in a time-series.
+
+From the top bar, you can choose the scale (logarithmic or linear) and when the resulted Timeseries
+has multiple modes and State variables, choose which one to display.
+After you change a selection in this top bar, the viewer will automatically refresh.
 
 .. figure:: screenshots/visualizer_fft.jpg
    :width: 90%
@@ -546,7 +579,7 @@ explained by each component.
 On the right, the first ten components are plotted against the brain nodes 
 (variables). 
 
-.. figure:: screenshots/analyzers_pca.jpg
+.. figure:: screenshots/visualizer_pca.jpg
    :width: 90%
    :align: center
 
@@ -562,7 +595,7 @@ As for PCA the TimeSeries datatype must be longer (more time-points) than the nu
 Mostly a problem for TimeSeriesSurface datatypes, which, if sampled at 1024Hz, would need to be greater than
 16 seconds long.
 
-.. figure:: screenshots/analyzers_ica.jpg
+.. figure:: screenshots/visualizer_ica.jpg
    :width: 90%
    :align: center
 
@@ -595,3 +628,26 @@ The user can also input the slice manually.
    :align: center
 
    Preview for Matrix Visualizer
+   
+   
+Connectivity Edge Bundle Visualizer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Shows structural connectivity coming in and out of a brain region by highlighting paths to other regions.
+
+.. figure:: screenshots/visualizer_connectivity_edge_bundle.jpg
+   :width: 90%
+   :align: center
+   
+   Preview for Connectivity Edge Bundle Visualizer
+   
+Pearson Edge Bundle Visualizer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Shows functional connectivity coming in and out of a brain region by highlighting paths to other regions.
+
+.. figure:: screenshots/visualizer_pearson_edge_bundle.jpg
+   :width: 90%
+   :align: center
+   
+   Preview for Pearson Edge Bundle Visualizer

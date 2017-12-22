@@ -1,5 +1,16 @@
 ======================================================================================================================================
  The Virtual Brain (TVB)
+ Version: 1.5.4 - build 8430
+ Release Date: 16 Oct 2017
+ Description: Improvements in Visualizers.
+======================================================================================================================================
+    * Add Structural Connectivity and Pearson Correlation Edge Bundle Viewers (circular viewers)
+    * Replace MPLH5 Visualizers(PSE Continous, Wavelet, Fourier, Topographic, Pearson, Complex Coherence) with new ones based on D3.JS
+    * Packages distributed with Pypi (tvb-library and tvb-framework)
+    * Bug Fixes
+
+======================================================================================================================================
+ The Virtual Brain (TVB)
  Version: 1.5.3 - build 8255
  Release Date: 12 May 2017
  Description: Bug fixing.
