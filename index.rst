@@ -33,6 +33,8 @@ To get in touch with other users and developers, please head over to the |mailin
 Some more documents and artefacts for TVB can be found in this |sharing_area|
 (e.g. documentation from TVB Node# meetings, some team pictures).
 
+Or you can see and follow us on |twitter_page|
+
 We are grateful to
 ------------------
 
@@ -73,6 +75,9 @@ We are grateful to
 .. |mailing_list| raw:: html
 
    <a href="https://groups.google.com/forum/#!forum/tvb-users" target="_blank">mailing list</a>
+   
+.. |twitter_page| raw:: html
+   <a href="https://twitter.com/thevirtualbrain" target="_blank"> our twitter handle page</a>
 
 
 .. |sharing_area| raw:: html
