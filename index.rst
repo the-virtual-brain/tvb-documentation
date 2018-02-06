@@ -33,8 +33,6 @@ To get in touch with other users and developers, please head over to the |mailin
 Some more documents and artefacts for TVB can be found in this |sharing_area|
 (e.g. documentation from TVB Node# meetings, some team pictures).
 
-Or you can see and follow us on [our twitter handle page](https://twitter.com/thevirtualbrain]).
-
 We are grateful to
 ------------------
 
