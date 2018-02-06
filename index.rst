@@ -36,13 +36,13 @@ Some more documents and artefacts for TVB can be found in this |sharing_area|
 We are grateful to
 ------------------
 
- - our contributors (check their names on |our_github|)
- - our sponsors (check their names on the |our_sponsors_page|
- - all |third_party| tools that we used (licenses are also included in TVB_Distribution)
+ - Our contributors (check their names on |our_github|)
+ - Our sponsors (check their names on the |our_sponsors_page|
+ - All |third_party| tools that we used (licenses are also included in TVB_Distribution)
  - JetBrains for |pycharm_ide|
  - |hudson| team for their continuous integration tool
  - Atlassian company for |jira| software
- - and to you for reading these :-)
+ - And to you for reading these :+1:
 
 
     .. image:: _static/logo_python.svg
@@ -78,7 +78,7 @@ We are grateful to
 .. |sharing_area| raw:: html
 
     <a href="http://www.thevirtualbrain.org/tvb/zwei/client-area/public" target="_blank">share area</a>
-
+    
 
 .. |our_github| raw:: html
 
