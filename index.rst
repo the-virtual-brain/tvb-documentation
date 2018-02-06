@@ -44,7 +44,7 @@ We are grateful to
  - JetBrains for |pycharm_ide|
  - |hudson| team for their continuous integration tool
  - Atlassian company for |jira| software
- - And to you for reading these :heart_eyes:
+ - And to you for reading these :+1:
 
 
     .. image:: _static/logo_python.svg
