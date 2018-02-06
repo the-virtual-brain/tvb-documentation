@@ -44,7 +44,7 @@ We are grateful to
  - JetBrains for |pycharm_ide|
  - |hudson| team for their continuous integration tool
  - Atlassian company for |jira| software
- - And to you for reading these :-)
+ - And to you for reading these :heart_eyes:
 
 
     .. image:: _static/logo_python.svg
@@ -80,9 +80,6 @@ We are grateful to
 .. |sharing_area| raw:: html
 
     <a href="http://www.thevirtualbrain.org/tvb/zwei/client-area/public" target="_blank">share area</a>
-    
-.. |twitter_page| raw:: html
-    <a href="https://twitter.com/thevirtualbrain" target="_blank">our twitter handle page</a>
 
 
 .. |our_github| raw:: html
