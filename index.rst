@@ -75,14 +75,14 @@ We are grateful to
 .. |mailing_list| raw:: html
 
    <a href="https://groups.google.com/forum/#!forum/tvb-users" target="_blank">mailing list</a>
-   
-.. |twitter_page| raw:: html
-   <a href="https://twitter.com/thevirtualbrain" target="_blank"> our twitter handle page</a>
 
 
 .. |sharing_area| raw:: html
 
     <a href="http://www.thevirtualbrain.org/tvb/zwei/client-area/public" target="_blank">share area</a>
+    
+.. |twitter_page| raw:: html
+    <a href="https://twitter.com/thevirtualbrain" target="_blank">our twitter handle page</a>
 
 
 .. |our_github| raw:: html
