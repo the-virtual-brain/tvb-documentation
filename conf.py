@@ -104,7 +104,7 @@ pygments_style = 'sphinx'
 modindex_common_prefix = ['tvb.']
 
 rst_epilog = """
-.. |TVB| replace:: *TheVirtualBrain*
+.. |TVB| replace:: The Virtual Brain
 .. |TVB_URL| replace:: http://www.thevirtualbrain.org
 .. |TVB_COPYRIGHT| replace:: copyright
 """
