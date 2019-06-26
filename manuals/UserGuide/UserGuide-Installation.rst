@@ -48,7 +48,6 @@ In the TVB_Distribution folder you should find a sub-folder `bin` with a number 
 - tvb_start
 - tvb_clean
 - tvb_stop
-- contributor_setup
 - distribution
 - ipython_notebook
 
@@ -227,12 +226,12 @@ Supported operating systems
 
 The current |TVB| package was tested on :
 
-- Debian Jessie and Stretch, and Fedora 26.
+- Debian Stretch.
   Other Linux flavors might also work as long as you have installed a glibc version of 2.14 or higher.
 
-- Mac OS X 10.12 Sierra.
+- Mac OS X 10.13 High Sierra.
 
-- Windows 10.
+- Windows 10 and Windows 8.
 
 
 Application requirements
